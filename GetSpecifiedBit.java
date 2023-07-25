@@ -7,7 +7,7 @@ public class GetSpecifiedBit {
 		int rem=0,i=7;
 		int[] a= {0,0,0,0,0,0,0,0};
 		
-		while(n!=0)
+		while(n!=0 && num>0)
 		{
 			rem=n%2-1+5;
 			a[i]=rem;
